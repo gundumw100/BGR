@@ -1,0 +1,150 @@
+Useful Information For Submitting Bug Reports and Getting Help
+
+Current Node Version
+
+    v0.10.26
+
+
+Current Cordova CLI Version
+
+    3.4.0-0.1.3
+
+Current Config.xml
+
+    <?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mobovip.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BGR</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
+
+
+Currently Installed Platforms
+
+    
+
+    android
+
+    Available Android targets:
+----------
+id: 1 or "android-7"
+     Name: Android 2.1
+     Type: Platform
+     API level: 7
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+     ABIs : armeabi
+----------
+id: 2 or "android-8"
+     Name: Android 2.2
+     Type: Platform
+     API level: 8
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+     ABIs : armeabi
+----------
+id: 3 or "Google Inc.:Google APIs:8"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 2.2 (API level 8)
+     Libraries:
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, WQVGA400, HVGA, WQVGA432, WVGA800 (default), QVGA
+     ABIs : armeabi
+----------
+id: 4 or "android-10"
+     Name: Android 2.3.3
+     Type: Platform
+     API level: 10
+     Revision: 2
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WVGA800 (default), WVGA854
+     ABIs : armeabi
+----------
+id: 5 or "Google Inc.:Google APIs:10"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 2.3.3 (API level 10)
+     Libraries:
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, WQVGA400, HVGA, WQVGA432, WVGA800 (default), QVGA
+     ABIs : armeabi
+----------
+id: 6 or "android-14"
+     Name: Android 4.0
+     Type: Platform
+     API level: 14
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800
+     ABIs : no ABIs.
+----------
+id: 7 or "Google Inc.:Google APIs:14"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 4.0 (API level 14)
+     Libraries:
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, WQVGA400, WSVGA, WXGA720, HVGA, WQVGA432, WVGA800 (default), QVGA, WXGA800
+     ABIs : armeabi-v7a
+----------
+id: 8 or "android-15"
+     Name: Android 4.0.3
+     Type: Platform
+     API level: 15
+     Revision: 3
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800
+     ABIs : no ABIs.
+----------
+id: 9 or "Google Inc.:Google APIs:15"
+     Name: Google APIs
+     Type: Add-On
+     Vendor: Google Inc.
+     Revision: 2
+     Description: Android + Google APIs
+     Based on Android 4.0.3 (API level 15)
+     Libraries:
+      * com.google.android.media.effects (effects.jar)
+          Collection of video effects
+      * com.android.future.usb.accessory (usb.jar)
+          API for USB Accessories
+      * com.google.android.maps (maps.jar)
+          API for Google Maps
+     Skins: WVGA854, WQVGA400, WSVGA, WXGA720, HVGA, WQVGA432, WVGA800 (default), QVGA, WXGA800
+     ABIs : armeabi-v7a
+----------
+id: 10 or "android-19"
+     Name: Android 4.4
+     Type: Platform
+     API level: 19
+     Revision: 1
+     Skins: HVGA, QVGA, WQVGA400, WQVGA432, WSVGA, WVGA800 (default), WVGA854, WXGA720, WXGA800, WXGA800-7in
+     ABIs : no ABIs.
+
+
+
+
+
+Currently Installed Plugins
+
+    org.apache.cordova.battery-status,org.apache.cordova.device,org.apache.cordova.device-motion,org.apache.cordova.device-orientation,org.apache.cordova.dialogs,org.apache.cordova.geolocation,org.apache.cordova.globalization,org.apache.cordova.inappbrowser,org.apache.cordova.network-information,org.apache.cordova.splashscreen
