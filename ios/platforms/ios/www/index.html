@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Access-Control-Allow-Origin" content="*">
+        <!--关闭电话号码识别-->
+        <!-- 
+        <meta name="format-detection" content="telephone=no" />
+        -->
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <!-- 
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         -->
+        
+        <link rel="stylesheet" type="text/css" href="css/y.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.3.2.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/picker/default.css" />
+        <link rel="stylesheet" type="text/css" href="css/picker/default.date.css" />
+        
+        <!-- 
+	    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile.structure-1.3.2.min.css" /> 
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+	    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+         -->
+        <title>BGR</title>
+     <script src="http://maps.google.com/maps/api/js?v=3.5&sensor=false&libraries=places"></script>
+<!--
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+ -->
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/iscroll.js"></script>
+
+<!-- 
+<script type="text/javascript" charset="utf-8">
+$(document).bind("mobileinit", function(){
+	log("===================mobileinit======================");
+	$.mobile.fixedtoolbar.prototype.options.tapToggle = false;
+	$.mobile.defaultTransition = "slidedown";
+	$.mobile.ajaxLinksEnabled = false;
+	$.mobile.ajaxFormsEnabled = false;
+	$.mobile.ajaxEnabled = false;
+	$.mobile.defaultPageTransition = "slide";
+	$.mobile.defaultDialogTransition = "slide";
+	$.mobile.loadingMessage = "Please wait";
+	$.mobile.pageLoadErrorMessage = 'Sorry, something went wrong. Please try again.';
+	$.mobile.page.prototype.options.backBtnText = 'back'  
+    $.mobile.page.prototype.options.addBackBtn= true  
+});
+</script>
+ -->
+<!-- 
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+ -->
+<script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+
+<script type="text/javascript" src="js/utils.js"></script>
+<!-- 
+<script type="text/javascript" src="js/io_writer.js"></script>
+<script type="text/javascript" src="js/io_reader.js"></script>
+ -->
+<script type="text/javascript" src="js/commands.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/storage.js"></script>
+<script type="text/javascript" src="js/jquery.json-2.4.min.js"></script>
+<script type="text/javascript" src="PushNotification.js"></script>
+ 
+<script type="text/javascript" charset="utf-8">
+var curPage="homepage";//Deprecated by getActivePageId()
+$(document).ready(function() {
+	//google.maps.event.addDomListener(window, 'load', initializeMap(null));
+	$( "#homepage #mypanel" ).panel({ 
+	  	open: function( event, ui ) {
+	  		isPanelOpen = true;
+	  	},
+	 	close: function( event, ui ) {
+	 		isPanelOpen = false;
+	 	} 
+	});
+	//返回键
+	function onBackKeyDown(){
+		//Toast.showShort('再点击一次退出!');
+		if(getActivePageId()=="homepage"){
+			if(isPanelOpen){
+				if(device.platform=="Android"){
+					navigator.app.exitApp();
+				}
+			}else{
+				$( "#homepage #mypanel" ).panel( "open" );
+			}
+		}else{
+			goBack();
+		}
+	}
+	// Cordova is ready
+	function onDeviceReady() {
+		log("device.cordova="+device.cordova+";device.model="+device.model+";device.name="+device.name+";device.platform="+device.platform+";device.uuid="+device.uuid+";device.version="+device.version);
+		
+		//read("mobovip/notification.txt");//read storeNotification
+		
+		document.addEventListener("backbutton", onBackKeyDown, false);
+		
+		if(device.platform==="Android"){
+			user.deviceId=storage.get('deviceId');
+			//if(isNull(user.deviceId)){
+				window.plugins.pushNotification.register(successHandler,errorHandler,{"senderID":"459856836210","ecb":"onNotification"});
+			//}
+		    appConfig.type=1;
+	    }else if(device.platform==="iOS"){
+			window.plugins.pushNotification.register(
+					tokenHandler,
+				    errorHandler,
+				    {
+				        "badge":"true",
+				        "sound":"true",
+				        "alert":"true",
+				        "ecb":"onNotificationAPN"
+				    }
+				);
+	    	
+	    	appConfig.type=2;
+	    }else{
+	    	appConfig.type=3;
+	    }
+        if(typeof(CDV)=="undefined"){
+            log("No CDV found");
+        }else{
+            CDV.FB.init({
+                appId: '687304941351382',
+                nativeInterface: CDV.FB,
+                useCachedDialogs: false
+            });
+                  
+        }
+		
+		navigator.splashscreen.hide();
+		/*
+        FB.getLoginStatus(handleStatusChange);
+        authUser();
+        updateAuthElements();
+        */
+		//触发时机是在获得sid或登录成功之后
+		//navigator.geolocation.getCurrentPosition(onGeoSuccess, onGeoError);
+		
+		//fastgoPushNotification.init("3su6nYtbWztwUKL16COgdARF");
+		//log("=================started baidu push==================");
+	}
+
+	//start
+	initialize=function(){
+	    $("#homepage #scroller").hide();
+		resetMainMenu(user);
+		doCommandSid();
+		document.addEventListener("deviceready", onDeviceReady, false);
+	};
+	initialize();
+});
+</script>
+</head>
+<body>
+	<div data-role="page" id="homepage" data-theme="a">
+		<div data-role="panel" id="mypanel" data-position-fixed="true" data-position="left" data-display="push" data-theme="a" style="background:#2b2c30;" data-dismissible="false" data-animate="true" > 
+			<div style="background:#1f1e23;width:64px;height:1136px;position:absolute;top:0;left:0;border:0px;">
+			</div>
+			<ul data-role="listview" data-inset="false" data-count-theme="c" data-icon="false">
+				<li id="home"><a href="#mypanel"><img src="img/ic_0.png"/><span class="menu_span">Home</span></a></li>
+				<li id="orders"><a href="#my_orders_page"><img src="img/ic_1.png"/><span class="menu_span">Orders</span><span class="ui-li-count" id="orderNum">0</span></a></li>
+				<li id="reward" onclick="toRewardsPage();"><a href="#"><img src="img/ic_9.png"/><span class="menu_span">Reward</span></a></li>
+				<li id="prizes"><a href="#"><img src="img/ic_2.png"/><span class="menu_span">Scratch and Win</span></a></li>
+				<li id="cards" onclick="toMyPaymentCardPage();"><a href="#"><img src="img/ic_3.png"/><span class="menu_span">My Payment Card</span></a></li>
+				<li id="favorites"><a href="#my_favorites_page"><img src="img/ic_4.png"/><span class="menu_span">Favorites</span></a></li>
+				<li id="settings"><a href="#setting_page"><img src="img/ic_5.png"/><span class="menu_span">Settings</span></a></li>
+				<li id="signIn"><a href="#sign_in_page"><img src="img/ic_7.png"/><span class="menu_span">Sign In</span></a></li>
+				<li id="signUp" onclick="toSignUpPage();"><a href="#"><img src="img/ic_8.png"/><span class="menu_span">Sign Up</span></a></li>
+				<li id="signOut"><a href="#" onclick="toSignOutPage();"><img src="img/ic_6.png" style="width:32px;height:32px;"/><span class="menu_span">Sign Out</span></a></li>
+			</ul>
+		</div>
+		<div data-role="header" style="position:fixed;margin-left:-1px;padding:0;" data-id="main" data-theme="a" data-position="fixed" data-tap-toggle = "false">
+		    <a href="#mypanel" data-role="none" id="openPanel"><img style="width:40px;height:32px;padding-top:5px" src="img/btn_menu_normal.png"/></a>
+		    <!-- 
+		    <span class="ui-title" style="font-size:18px;">THE BURGER JOINT</span>
+		     -->
+		    <h1 style="font-size:20px;width:300px;margin:16px auto;">THE BURGER JOINT</h1>
+		    
+		    <a href="#map_page" data-role="none" ><img style="width:40px;height:32px;padding-top:5px" src="img/btn_position_normal.png"/></a>
+			<input data-theme="c" id="search" type="text" style="padding:10px;" placeholder="Search Stores" maxlength="30">
+			<img onclick="doSearch();"  src="img/search.png" style="position: absolute;top: 52px;right:8px;padding:8px;cursor:pointer;z-index:500"/>
+		</div>
+		
+		<div id="wrapper" data-role="content">
+			<div id="scroller">
+				<ul id="content_store_list" data-role="listview" data-inset="false" >
+				</ul>
+			</div>
+		</div>
+		 <!--
+		<div data-role="content">
+			<ul id="content_store_list" data-role="listview" data-inset="false" >
+			</ul>
+		</div>
+         -->
+
+	</div>
+
+	<div data-role="page" id="map_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+		    <h1 style="font-size:20px;width:300px;margin:16px auto;">THE BURGER JOINT</h1>
+			<div id="content_map" style="width:480px;height:760px"></div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="my_orders_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Orders</h1>
+		</div>
+		<div data-role="content" >
+			<ul id="my_orders_list" data-role="listview" data-inset="false" >
+	  		</ul>
+	  		
+		</div>
+		<div data-role="footer" data-theme="a" style="border:0px;">
+			<div id="moreOrder" class="btn_red" onclick="doMoreOrders()" style="display:none;">
+				More
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="my_order_detail_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Order Detail</h1>
+		</div>
+		<div data-role="content" >
+			<div id="storeName" style="font-weight:bold;font-size:18px;"></div>
+			<div id="storeAddress" class="font_middle"></div>
+			<a id="storePhone" class="font_middle"></a>
+			<hr id="line_0" size=1/>
+			<p id="pickUp" style="width:100%;text-align:center;color:red;font-size: 14px;">
+				Pick up ready at <span id="pickUpTime"></span>
+			</p>
+			<hr size=1/>
+			<ul id="my_dishes_list" style="margin-top:5px;margin-bottom:5px;" data-role="listview" data-inset="false" >
+	  		</ul>
+			<hr size=1/>
+	  		<p><span>Coupons</span><span style="float:right" id="couponAmt">-$0.00</span></p>
+			<hr size=1/>
+	  		
+	  		<div class="ui-grid-a" style="float:right;width:120px;">
+			     <div class="ui-block-a"><span>Subtotal</span></div>
+			     <div class="ui-block-b"><span id="subtotal"></span></div>
+			     <div class="ui-block-a"><span>Tax</span></div>
+				 <div class="ui-block-b"><span id="tax"></span></div>
+			     <div class="ui-block-a"><span>Total</span></div>
+				 <div class="ui-block-b"><span id="total"></span></div>
+		   	</div>
+		   	
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<div class="btn_red" onclick="doReorder()">
+				Reorder
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="my_payment_card_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">My Card</h1>
+		</div>
+		
+		<div data-role="content" >
+			<div class="font_small" style="margin-bottom:16px;">
+			For quick in-store purchase, please present this payment card at the stores where LevelUP payment is accepted. The payment will be charged to your credit card registered with LevelUP.
+			</div>
+			<div id="qrcode">
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<table >
+				<tr >
+					<td style="font-size:26px;background:red;padding-top:20px;padding-bottom:20px;">Tip<br />%</td>
+					<td style="background:#424242;">0</td>
+					<td style="background:#272727;">5</td>
+					<td style="background:#272727;">10</td>
+					<td style="background:#272727;">15</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	
+	<div data-role="page" id="my_favorites_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">My Favorites</h1>
+		</div>
+		
+		<div data-role="content" >
+			<ul id="my_favorites_list" data-role="listview" data-inset="false" >
+	  		
+	  		</ul>
+		</div>
+	</div>
+	<div data-role="page" id="setting_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Settings</h1>
+		</div>
+		<div data-role="content" style="padding-top:0px;">
+			<ul id="myProfile" data-role="listview" data-inset="true">
+	  			<li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 0px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="#my_profile_page" >My Profile</a></li>
+	  		</ul>
+			<ul id="selectCard" data-role="listview" data-inset="true" >
+	  			<li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 0px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="" onclick="toSelectCardPage()">Select Card</a></li>
+	  		</ul>
+	  		<!-- 
+	  		<table style="margin-top:16px;width:100%;background:#333;border-color:#666;border:0px;">
+	  		 	<tr>
+		  		 	<td style="color:white;padding-left:16px;">Store Notification</td>
+		  		 	<td style="text-align:right;">
+		  		 		<label for="swicher" class="ui-hidden-accessible">Notification:</label>
+			  		 	<select data-track-theme="b" data-theme="c" name="swicher" id="swicher" data-role="slider" data-mini="true" onchange="onDistanceNotification(this)">
+					        <option value="off" selected>Off</option>
+					        <option value="on">On</option>
+					    </select>
+				    </td>
+				</tr>
+	  		 </table>
+	  		 -->
+	  		
+			<ul data-role="listview" data-inset="true" data-count-theme="c">
+	  			<li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 0px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="#" id="checkAppVersion">App Version<span id="appVersion" class="ui-li-count"></span></a></li>
+	  			<li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 1px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="#about_us_page" >About us</a></li>
+	  		</ul>
+		</div>
+	</div>
+	
+	<div data-role="page" id="store_detail_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;"></h1>
+		</div>
+
+		<div data-role="content" >
+			<div class="store_menu">
+				<table>
+					<tr>
+						<td onclick="toFoodMenuPage();">
+							<img src="img/restaurant_0.png"/>
+							<br/>
+							<span>Menu</span>
+						</td>
+						<td onclick="toCouponsPage();">
+							<img src="img/restaurant_1.png"/>
+							<br/>
+							<span>Coupons</span>
+						</td>
+						<td onclick="toDirectionPage();">
+							<img src="img/restaurant_3.png"/>
+							<br/>
+							<span>Direction</span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<div>
+				<div>
+					<span id="storeName"></span>
+					<span style="float:right;margin-top:-40px;"><img id="my_favorite" onclick="doCommandAddToMyFavorite()" src=""/></span>
+				</div>
+				<div id="storeAddress" class="font_middle"></div>
+				<a id="telephone" class="font_middle" style="color:red"></a>
+				<div id="time1" class="font_middle"></div>
+				<div id="time2" class="font_middle"></div>
+				<p>
+					<img id="imgOriginalUrl" style="width: 100%;" src="" />
+				</p>
+				<div id="description" class="font_small"></div>
+				<hr size=1/>
+				<p id="share_facebook">
+					<img src="img/facebook.png" style="margin-right:10px;"/>
+					<a onclick="doShareWithFacebook();" style="font-weight:normal;">Share with Facebook</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="foodmenu_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Menu</h1>
+			<div id="boxscroll">
+				<div id="categorys">
+				</div>
+			</div>
+		</div>
+		<div data-role="content">
+			<table id="dishes" class='table' rules='rows'>
+			</table>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<div class="btn_red" onclick="doSubtotal()" style="text-align:center;">
+				<div>
+				<span style="vertical-align:middle;display:inline-block; background:url(img/ic_che.png) top left no-repeat; width:36px; height:36px;"></span>
+				<span style="vertical-align:middle;margin-left:16px;font-size:16px;">Subtotal: $<span id="subtotal" style="margin-right:16px;">0.00</span>Item ordered: <span id="itemOrdered">0</span></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="dish_modifier_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;" id="modifier_title"></h1>
+		</div>
+		<div data-role="content" >
+			<div id="dish_des" class="font_small">
+			</div>
+			<ul id="dish_modifier" data-role="listview" data-inset="false">
+	  		</ul>
+			<div id="dish_num">
+				<span style="color:black;">Quantity</span>
+				<img id="minus" onclick="onMinus()" src="img/btn_minus.png" />
+				<input data-theme="c" id="num" type="text" value="1" readonly />
+				<img id="plus" onclick="onPlus()" src="img/btn_plus.png" />
+			</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<div class="btn_red" onclick="doAddItem();">
+				Add item: $<span id="money">0.00</span>
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="order_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Order</h1>
+		</div>
+		<div data-role="content" >
+			<div id="storeName" style="font-weight:bold;font-size:18px;"></div>
+			<div id="storeAddress" class="font_middle"></div>
+			<a id="storePhone" class="font_middle"></a>
+			<hr size=1/>
+			<p style="width:100%;text-align:center;color:red;font-size: 14px;">
+				Pick up ready at <span id="pickUpTime">00:00 PM</span>
+			</p>
+			<hr size=1/>
+			<ul style="margin-left:0px;margin-right:0px;margin-top:10px;margin-bottom:10px;" id="myDishes" data-role="listview" data-inset="false">
+	  		</ul>
+	  		<hr size=1/>
+	  		<div>
+  				<table id="table" class="frame">
+	  				<tr>
+	  					<td id="coupon" ></td>
+	  					<td id="apply" style="width:75%;text-align:center;">Select coupons at this store, Apply?</td>
+	  					<td id="money" style="width:25%;text-align:right;"></td>
+	  				</tr>
+  				</table>
+	  		</div>
+	  		<hr size=1/>
+  			<div class="ui-grid-a" style="float:right;width:120px;">
+			     <div class="ui-block-a"><span>Subtotal</span></div>
+			     <div class="ui-block-b"><span id="subtotal"></span></div>
+			     <div class="ui-block-a"><span>Tax</span></div>
+				 <div class="ui-block-b"><span id="tax"></span></div>
+			     <div class="ui-block-a"><span>Total</span></div>
+				 <div class="ui-block-b"><span id="total"></span></div>
+		   	</div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<div class="btn_red" onclick="doPlaceOrder()">
+				Place Order
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="levelup_signup_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Secure Payment</h1>
+		</div>
+		<div data-role="content" >
+			<div class="font_small">To provide additional protection for your financail data, we partner with LevelUp, a 100% secure and PCI-compliant mobile payment gateway. Please sign in to LevelUp and process your payment.</div>
+			<form>
+			<input data-theme="c" id="firstName" 	type="text" style="padding:16px;" placeholder="First Name" 		maxlength="30" value="">
+			<input data-theme="c" id="lastName" 	type="text" style="padding:16px;" placeholder="Last Name" 		maxlength="30" value="">
+			<input data-theme="c" id="email" 		type="text" style="padding:16px;" placeholder="Email Address" 	maxlength="30" value="">
+			<input data-theme="c" id="password" 	type="text" style="padding:16px;" placeholder="Password" 		maxlength="30" value="">
+			</form>
+			<div style="font-size:14px;font-weight:normal;margin-top:10px;margin-bottom:10px;text-align:right;">
+				<a href="#levelup_signin_page" style="font-weight:normal;">Already have an account ? Sign In Here.</a>
+			</div>
+			<div class="btn_red" onclick="doJoinLevelUp();">
+				Join LevelUp
+			</div>
+			<p style="font-size:14px;font-weight:normal;">By tapping below you agree to <a id="levelup_terms_link" style="font-weight:normal;text-decoration:underline">LevelUp's Terms and conditions</a></p>
+		</div>
+	</div>
+	
+	<div data-role="page" id="levelup_signin_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Secure Payment</h1>
+		</div>
+		<div data-role="content">
+			<div class="font_small">To provide additional protection for your financail data, we partner with LevelUp, a 100% secure and PCI-compliant mobile payment gateway. Please sign in to LevelUp and process your payment.</div>
+			<form>
+			<input data-theme="c" id="userName" data-theme="c" style="padding:16px" type="text" placeholder="User Name" value="">
+			<input data-theme="c" id="password" data-theme="c" style="padding:16px" type="password" placeholder="Password" value="">
+			</form>
+			<div style="font-size:14px;margin-top:10px;margin-bottom:10px;text-align:right;">
+				<a onclick="changeToLevelUpForgotPasswordPage()" style="font-weight:normal;text-decoration:underline">Forgot Password?</a>
+			</div>
+			<div class="btn_red" onclick="doSignInLevelUp()">
+				Sign In
+			</div>
+			<div class="btn_red" style="margin-top:10px;background:grey;" onclick="changeToSignUpPage()" >
+				Sign Up
+			</div>
+			
+		</div>
+	</div>
+	
+	<div data-role="page" id="levelup_forgot_password_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Forgot Password</h1>
+		</div>
+		<div data-role="content">
+		<form>
+			<input data-theme="c" id="email" style="padding:16px" type="text" placeholder="email">
+			</form>
+			<div class="btn_red" onclick="doForgotPasswordLevelUp()">
+				Submit
+			</div>
+		</div>
+	</div>
+	
+	
+	<div data-role="page" id="levelup_card_manage_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Select Card</h1>
+			<div style="background:#333;font-size:14px;padding:5px 5px;font-weight:normal;">Select default card. Swipe to remove card.</div>
+		</div>
+		<div data-role="content" style="margin:0;padding:0;">
+			<table id="myCards" class='table' rules='rows' >
+			</table>
+			<!-- 
+			<ul id="myCards" data-role="listview" data-inset="false">
+		  	</ul>
+			 -->
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<div class="btn_red" onclick="changeToAddCardPage()">
+				Link New Debit / Credit Card
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="levelup_add_card_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Add Card</h1>
+		</div>
+		<div data-role="content">
+			<form>
+				<input data-theme="c" id="cardNumber" type="text" style="padding:16px" placeholder="Card Number" maxlength="20" value=""><!-- 374328932475851 -->
+				<input data-theme="c" id="cvn" type="text" style="padding:16px" placeholder="CVN(Security Code)" maxlength="4" value=""><!-- 6690 -->
+				<input data-theme="c" id="year" type="text" style="padding:16px" placeholder="Expiration Year" maxlength="4" value=""><!-- 2017 -->
+				<input data-theme="c" id="month" type="text" style="padding:16px" placeholder="Expiration Month" maxlength="2" value=""><!-- 02 -->
+				<input data-theme="c" id="zip" type="text" style="padding:16px" placeholder="Zip Code" maxlength="6" value=""><!-- 22066 -->
+			</form>
+			<p class="font_small">
+			Your card will only be stored and processed by LevelUp, a 100% secure and PCI-compliant mobile payment gateway.Your card will only ever be used when you pay with LevelUP to make a purchase.
+			</p>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<div class="btn_red" onclick="doAddCard()">
+				Link Card
+			</div>
+		</div>
+		
+	</div>
+	
+	
+	<div data-role="page" id="coupons_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Coupons</h1>
+		</div>
+		<div data-role="content">
+		<!-- 
+			<ul id="coupons_list" data-role="listview" data-inset="false">
+	  		</ul>
+		 -->
+	  		<table id="coupons_list" class='table' rules='rows' >
+			</table>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<div class="btn_red" style="font-weight:normal;background:#333">
+				You can redeem one offer per visit
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="rewards_page" data-theme="a" data-tap-toggle = "false">
+		<div data-role="header" data-position="fixed" data-theme="a">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Rewards</h1>
+			<div class="btn_red" style="background:#333;font-weight:normal;">
+				Available Credit: <span id="availableCredit"></span>
+			</div>
+		</div>
+		<div data-role="content" data-theme="a">
+			<div class="circle">
+            	<div class="knob" data-width="250" data-height="250" data-bgcolor="#333" data-fgColor="#6B4F00" data-angleOffset="-140" data-angleArc="280" data-displayInput="false" data-readOnly="true" ></div>
+        	</div>
+			<div class="center">
+				<b id="center"></b>
+			</div>
+			<div class="spend">
+				Spend <span id="spend"></span>
+			</div>
+			<div class="get">
+				Get <span id="get"></span>
+			</div>
+			<div class="welcome">
+	            <b>Welcome</b>
+	        </div>
+		</div>
+		<div data-role="footer" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<div class="btn_red" style="background:#333;font-weight:normal;">
+				Total Saving: <span id="totalSaving"></span>
+			</div>
+		</div>
+	</div>
+	
+	<div data-role="page" id="sign_in_page" data-theme="a">
+		<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Sign In</h1>
+		</div>
+		<div data-role="content">
+			<div class="btn_red" style="background:#2862AC" onclick="loginWithFacebook()">
+				
+				<span style="vertical-align:middle;display:inline-block; background:url(img/facebook_login.png) top left no-repeat; width:40px; height:40px;"></span>
+				<span style="vertical-align:middle;margin-left:24px;">Login with Facebook</span>
+				
+			</div>
+			<p id="or">-or-</p>
+			<form>
+				<input data-theme="c" type="email" style="padding:16px" id="login_email" placeholder="Email" value=""/>
+				<input data-theme="c" type="password" style="padding:16px" id="login_password" placeholder="Password" value=""/>
+			</form>
+			
+			<div style="font-size:14px;font-weight:normal;margin-top:10px;margin-bottom:10px;text-align:right;">
+				<a onclick="toForgotPasswordPage()" style="font-weight:normal;text-decoration:underline">Forgot Password?</a>
+			</div>
+			
+			<div class="btn_red" onclick="doSignIn()">
+				Sign In
+			</div>
+			<div style="font-size:14px;font-weight:normal;margin-top:10px;margin-bottom:10px;text-align:center;">
+				<a href="#sign_up_page" style="font-weight:normal;">Not a VIP? Join us now</a>
+			</div>
+		 </div>
+	</div>
+	<div data-role="page" id="sign_up_page" data-theme="a">
+		<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Sign Up</h1>
+		</div>
+		<div data-role="content">
+		<form>
+			<input data-theme="c" type="email" style="padding:16px" id="email" placeholder="Email" maxlength="30"/>
+			<input data-theme="c" type="text" style="padding:16px" id="firstName" placeholder="First Name" maxlength="30"/>
+			<input data-theme="c" type="text" style="padding:16px" id="lastName" placeholder="Last Name" maxlength="30"/>
+			<input data-theme="c" type="number" style="padding:16px" id="phoneNumber" placeholder="Phone Number" maxlength="11"/>
+			<input data-theme="c" type="password" style="padding:16px" id="password" placeholder="Password(6-20)" maxlength="20"/>
+			<input data-theme="c" type="password" style="padding:16px" id="confirmPassword" placeholder="Confirm Password" maxlength="20"/>
+			</form>
+			<div class="btn_red" onclick="doSignUp()">
+				Submit
+			</div>
+			<p style="font-size:12px;">We will only use your phone number for reset your password.</p>
+		 </div>
+		
+	</div>
+	<div data-role="page" id="forgot_password_page" data-theme="a">
+		<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Forgot Password</h1>
+		</div>
+		<div data-role="content">
+		<form>
+			<input data-theme="c" style="padding:16px" type="number" id="phoneNumber" placeholder="Phone" maxlength="11"/>
+			</form>
+			<div id="btn_verCode" class="btn_red" style="background:#333;">
+				Get Verification Code
+			</div>
+			<form style="margin-top:16px;">
+			<input data-theme="c" type="number" style="padding:16px" id="code" placeholder="Enter Verification Code" maxlength="10"/>
+			<input data-theme="c" type="password" style="padding:16px" id="password" placeholder="New Password(6-20)" maxlength="20"/>
+			<input data-theme="c" type="password" style="padding:16px" id="confirmPassword" placeholder="Confirm Password" maxlength="20"/>
+			</form>
+			<div class="btn_red" onclick="doForgotPassword()">
+				Submit
+			</div>
+		 </div>
+	</div>
+	<div data-role="page" id="my_profile_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">My Profile</h1>
+		</div>
+		<div data-role="content" style="margin:0;padding:0;">
+			<img style="width:100%;height:auto;" src="img/profile2.png" />
+			
+			<div style="position:absolute;top:70px;left:10px;">
+				<a href="#select_pic_page" data-rel="popup" data-position-to="window" data-transition="pop"><img id="face" style="width:110px;height:110px;" src="img/default_face.jpg" /></a>
+				<div data-role="popup" id="select_pic_page" data-overlay-theme="a">
+					<ul data-role="listview" data-icon="false">
+					    <li onclick="onFaceImgClick(0)" style="border-width:0;border-color:#666;border-bottom-width: 1px;"><a style="padding:16px;font-weight:normal;" href="#" data-rel="back">Take a picture</a></li>
+					    <li onclick="onFaceImgClick(1)" style="border-width:0;"><a style="padding:16px;font-weight:normal;" href="#" data-rel="back">Select From Photo Library</a></li>
+					</ul>
+				 </div>
+				<span id="face_name" style="font-size:30px;color:white;padding-left:10px;"></span>
+			</div>
+			<ul data-role="listview" data-inset="true" data-count-theme="a" style="margin-top:-20px;margin-left:10px;margin-right:10px;">
+			    <li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 0px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="#change_email_page">Email: <span id="email" class="ui-li-count"></span></a></li>
+			    <li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 1px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="#change_password_page">Password: <span class="ui-li-count">******</span></a></li>
+			    <li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 1px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="#change_name_page">Name: <span id="name" class="ui-li-count"></span></a></li>
+			    <li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 1px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="#change_phone_page">Phone: <span id="phoneNumber" class="ui-li-count"></span></a></li>
+			    <li data-icon="arrow" data-iconshadow="false" style="background:#333;border-color:#666;border-width: 1px 0px 0px 0px;"><a style="padding:16px;font-weight:normal;color:white;" href="#change_birthday_page">Birthday: <span id="birthday" class="ui-li-count"></span></a></li>
+			</ul>
+		 </div>
+	</div>
+	
+	<div data-role="page" id="change_name_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Change Name</h1>
+		</div>
+		<div data-role="content">
+			<input data-theme="c" type="text" style="padding:16px" id="firstName" placeholder="First Name" maxlength="30"/>
+			<input data-theme="c" type="text" style="padding:16px" id="lastName" placeholder="Last Name" maxlength="30"/>
+			<div class="btn_red" onclick="doCommandChangeName()">
+				Submit
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="change_birthday_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Change Birthday</h1>
+		</div>
+		<div data-role="content" data-theme="a">
+		<!-- data-type="horizontal" -->
+		<!-- 
+			<fieldset data-role="controlgroup" >
+			   <select name="month" id="month" data-native-menu="true" data-theme="b">
+			        <option value='' disabled selected>Month</option>
+			    </select>
+			    <select name="day" id="day" data-native-menu="true" data-theme="b">
+			     	<option value='' disabled selected>Day</option>
+			    </select>
+			    <select name="year" id="year" data-native-menu="true" data-theme="b">
+			        <option value='' disabled selected>Year</option>
+			    </select>
+			</fieldset>
+		 -->
+			<input data-theme="c" type="text" data-role="date" style="padding:16px" id="birthday" placeholder="Birthday"/>
+			 
+			<div class="btn_red" onclick="doCommandChangeBirthday()">
+				Submit
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="change_phone_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Change Phone</h1>
+		</div>
+		<div data-role="content">
+			<input data-theme="c" type="number" style="padding:16px" id="phoneNumber" placeholder="Phone" maxlength="11"/>
+			<div class="btn_red" onclick="doCommandChangePhone()">
+				Submit
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="change_email_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Change Email</h1>
+		</div>
+		<div data-role="content">
+			<input data-theme="c" type="email" style="padding:16px" id="email" placeholder="Email" maxlength="30"/>
+			<div class="btn_red" onclick="doCommandChangeEmail()">
+				Submit
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="change_password_page" data-theme="a">
+	<!-- ios remove data-position="fixed" -->
+		<div data-role="header">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Change Password</h1>
+		</div>
+		<div data-role="content">
+			<input data-theme="c" type="password" style="padding:16px" id="oldPassword" placeholder="Old Password" maxlength="20"/>
+			<input data-theme="c" type="password" style="padding:16px" id="password" placeholder="Enter New Password" maxlength="20"/>
+			<input data-theme="c" type="password" style="padding:16px" id="confirmPassword" placeholder="Confirm New Password" maxlength="20"/>
+			<div class="btn_red" onclick="doCommandChangePassword()">
+				Submit
+			</div>
+		</div>
+	</div>
+	<div data-role="page" id="about_us_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="a" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">About us</h1>
+		</div>
+		<div data-role="content">
+			<p style="width:100%;text-align:center"><img src="img/aboutus.png"></p>
+			<p>Version: <span id="appVersion">2.2.1</span></p>
+			<p>Website: <span>http://www.mobovip.com</span></p>
+		</div>
+	</div>
+	
+	<div data-role="page" id="share_with_facebook_page" data-theme="a">
+		<div data-role="header" data-position="fixed" data-tap-toggle = "false">
+			<a href="#" data-role="none" data-rel="back" ><img style="width:38px;height:40px;" src="img/btn_back.png"/></a>
+			<h1 style="font-size:20px;">Facebook</h1>
+		</div>
+
+		<div data-role="content" >
+			<textarea id="advice" data-theme="c" style="height: 150px;" rows="5" cols="30" placeholder="Please input your valuable advice" maxlength=1000 ></textarea>			
+			<div class="btn_red" onclick="doShareWithFacebook();">
+				Submit
+			</div>
+			<!-- This initializes the Facebook JS SDK. -->
+  			<div id="fb-root"></div>
+		</div>
+	</div>
+		<script type="text/javascript" src="js/jquery.knob.js"></script>
+		<script type="text/javascript" src="js/jquery.qrcode.js"></script>
+		<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+		<script type="text/javascript" src="js/braintree.js"></script>
+		<script type="text/javascript" src="js/picker/picker.js"></script>
+		<script type="text/javascript" src="js/picker/picker.date.js"></script>
+		<!-- 
+		<script type="text/javascript" src="https://js.braintreegateway.com/v1/braintree.js"></script>
+		 -->
+		 <!-- cordova facebook plugin & facebook js sdk -->
+		 <!-- ios android
+		<script type="text/javascript" src="facebook-js-sdk.min.js"></script>
+          
+        -->
+         <script type="text/javascript" src="cdv-plugin-fb-connect.js"></script>
+         <script type="text/javascript" src="facebook-js-sdk.js"></script>
+         
+    </body>
+    
+</html>

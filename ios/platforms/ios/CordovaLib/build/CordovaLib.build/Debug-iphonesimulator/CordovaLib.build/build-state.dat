@@ -1,0 +1,1184 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/libCordova.a normal i386
+
+N/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005311A6CC00000000000003B4
+t1393665740
+s948
+
+N/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005311A6D8000000000000019E
+t1393665752
+s414
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDV.h
+c00000000539A6A7F0000000000000516
+t1402628735
+s1302
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c00000000539A6A7F0000000000000D19
+t1402628735
+s3353
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c00000000539A6A7F00000000000008BA
+t1402628735
+s2234
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c00000000539A6A7F00000000000004E2
+t1402628735
+s1250
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c00000000539A6A7F000000000000183A
+t1402628735
+s6202
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c00000000539A6A7F0000000000000503
+t1402628735
+s1283
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c00000000539A6A7F0000000000001ED0
+t1402628735
+s7888
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c00000000539A6A7F00000000000004CB
+t1402628735
+s1227
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c00000000539A6A7F0000000000000EBF
+t1402628735
+s3775
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c00000000539A6A7F0000000000000401
+t1402628735
+s1025
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c00000000539A6A7F00000000000007E6
+t1402628735
+s2022
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c00000000539A6A7F0000000000000DDE
+t1402628735
+s3550
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c00000000539A6A7F00000000000003DA
+t1402628735
+s986
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c00000000539A6A7F00000000000009A1
+t1402628735
+s2465
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c00000000539A6A7F00000000000006CF
+t1402628735
+s1743
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c00000000539A6A7F0000000000004E02
+t1402628735
+s19970
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c00000000539A6A7F00000000000008F3
+t1402628735
+s2291
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c00000000539A6A7F000000000000173C
+t1402628735
+s5948
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c00000000539A6A7F0000000000000C13
+t1402628735
+s3091
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c00000000539A6A7F0000000000001B29
+t1402628735
+s6953
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c00000000539A6A7F0000000000000408
+t1402628735
+s1032
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.h
+c00000000539A6A7F00000000000003E6
+t1402628735
+s998
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.m
+c00000000539A6A7F00000000000006BD
+t1402628735
+s1725
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c00000000539A6A7F000000000000038D
+t1402628735
+s909
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c00000000539A6A7F0000000000000AA2
+t1402628735
+s2722
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c00000000539A6A7F000000000000041C
+t1402628735
+s1052
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c00000000539A6A7F000000000000259E
+t1402628735
+s9630
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c00000000539A6A7F0000000000000421
+t1402628735
+s1057
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c00000000539A6A7F0000000000001361
+t1402628735
+s4961
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c00000000539A6A7F0000000000000ACC
+t1402628735
+s2764
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c00000000539A6A7F0000000000008FD2
+t1402628735
+s36818
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c00000000539A6A7F0000000000000689
+t1402628735
+s1673
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c00000000539A6A7F0000000000003992
+t1402628735
+s14738
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c00000000539A6A7F00000000000004B4
+t1402628735
+s1204
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c00000000539A6A7F00000000000029D2
+t1402628735
+s10706
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c00000000539A6A7F0000000000000392
+t1402628735
+s914
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c00000000539A6A7F00000000000004D8
+t1402628735
+s1240
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c00000000539A6A7F000000000000037D
+t1402628735
+s893
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c00000000539A6A7F00000000000022CC
+t1402628735
+s8908
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c00000000539A6A7F00000000000005DA
+t1402628735
+s1498
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c00000000539A6A7F0000000000001059
+t1402628735
+s4185
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c00000000539A6A7F00000000000003A0
+t1402628735
+s928
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c00000000539A6A7F0000000000000584
+t1402628735
+s1412
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c00000000539A6A7F0000000000000476
+t1402628735
+s1142
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c00000000539A6A7F0000000000000620
+t1402628735
+s1568
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c00000000539A6A7F0000000000000346
+t1402628735
+s838
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+t1405490785
+s64904
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+t1405490785
+s61380
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+t1405490785
+s27424
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+t1405490784
+s18224
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+t1405490785
+s10552
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+t1405490785
+s106724
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+t1405490785
+s57544
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+t1405490784
+s36616
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+t1405490785
+s9024
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+t1405490785
+s22584
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+t1405490785
+s68880
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+t1405490785
+s50744
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+t1405490785
+s162936
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+t1405490785
+s69032
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+t1405490784
+s43104
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
+c0000000053C6165F0000000000000C53
+t1405490783
+s3155
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+t1405490785
+s7196
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+t1405490784
+s10888
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+t1405490784
+s17308
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+t1405490784
+s6756
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+t1405490785
+s9180
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDV.h
+t1405490783
+s1302
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+t1405490783
+s3353
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+t1405490783
+s2234
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+t1405490783
+s1250
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+t1405490783
+s1283
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+t1405490783
+s1227
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+t1405490783
+s1025
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+t1405490783
+s2022
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+t1405490783
+s986
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+t1405490783
+s1743
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+t1405490783
+s2291
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+t1405490783
+s3091
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+t1405490783
+s1032
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+t1405490783
+s998
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+t1405490783
+s909
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+t1405490783
+s1052
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+t1405490783
+s1057
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+t1405490783
+s2764
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+t1405490783
+s1673
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+t1405490783
+s1204
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+t1405490783
+s914
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+t1405490783
+s893
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+t1405490783
+s1498
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+t1405490783
+s928
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+t1405490783
+s1142
+
+N/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/libCordova.a
+t1405490785
+s868832
+
+N/var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.pch
+t1405490784
+s3243832
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0ad6b0e2a3adb941^8e1e4be3a3adb941^---0#1#1#--18"Check dependencies36"51ABA75F-825E-40ED-9C25-FD82A2D4DDD0-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.262341
+e427183585.481390
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m232"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o [1mClasses/CDVCommandDelegateImpl.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere04943e14d76b941^e25c7be14d76b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3733"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o [1mClasses/CDVCommandDelegateImpl.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"8302E86A-36FA-4AA7-BAA8-CB7B5DBB3236-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.251032
+e427183585.499342
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o [1mClasses/CDVCommandQueue.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc17240e14d76b941^13d57fe14d76b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3691"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o [1mClasses/CDVCommandQueue.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"91E6971D-6445-451B-80F6-B6EA75A1F725-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.385475
+e427183585.432693
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o [1mClasses/CDVConfigParser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6fd462e14d76b941^f8c46ee14d76b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3691"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o [1mClasses/CDVConfigParser.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"A59461AF-298A-4AAF-AFCD-A3434CDA270D-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.611415
+e427183584.809177
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m228"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o [1mClasses/CDVInvokedUrlCommand.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc3a09ce04d76b941^4627cfe04d76b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3721"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o [1mClasses/CDVInvokedUrlCommand.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"3DD6ED60-32FC-408A-8C2E-A4B1764A2050-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.432939
+e427183585.466273
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.m202"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o [1mClasses/CDVJSON.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera5116fe14d76b941^b75e77e14d76b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3643"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o [1mClasses/CDVJSON.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"1CE9CABC-3D3F-44D2-A2E8-5976994D8CF0-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.930063
+e427183585.261617
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o [1mClasses/CDVLocalStorage.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd940eee04d76b941^33f942e14d76b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3691"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o [1mClasses/CDVLocalStorage.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"D70EC73F-00A8-4AD5-8ED4-83721E38DFA7-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.805726
+e427183585.213528
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.m206"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o [1mClasses/CDVPlugin.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc767cee04d76b941^19aa36e14d76b941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3655"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o [1mClasses/CDVPlugin.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"E12E68BB-08C5-44B2-B45A-8C8A07E5E7CC-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.612689
+e427183584.822072
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.m218"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o [1mClasses/CDVPluginResult.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2ff89ce04d76b941^d0b6d2e04d76b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3691"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o [1mClasses/CDVPluginResult.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"7C445D5A-6B02-49FB-B1E2-7794915E6F12-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.548125
+e427183585.597449
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.m206"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o [1mClasses/CDVShared.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera3758ce14d76b941^570699e14d76b941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3655"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o [1mClasses/CDVShared.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"710CF22E-7185-45AA-98FC-6C35C343B3D8-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.499803
+e427183585.547782
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.m204"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o [1mClasses/CDVTimer.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbb2680e14d76b941^823b8ce14d76b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3649"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o [1mClasses/CDVTimer.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"336EA288-FB6A-49C4-8058-D065F58EC78A-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.822439
+e427183585.219041
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m216"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o [1mClasses/CDVURLProtocol.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3fadd2e04d76b941^ae1238e14d76b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3685"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o [1mClasses/CDVURLProtocol.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"B984637C-6BAF-4902-AE16-5488B2550AC3-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.466545
+e427183585.665158
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m220"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o [1mClasses/CDVUserAgentUtil.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere8a477e14d76b941^ed47aae14d76b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3697"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o [1mClasses/CDVUserAgentUtil.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"E1E8C549-9756-4919-9742-CFE929E82700-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.890603
+e427183585.601779
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.m222"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o [1mClasses/CDVViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3332e4e04d76b941^910f9ae14d76b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3703"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o [1mClasses/CDVViewController.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"EAD5EE64-1EFD-45B6-B89D-2B787E45981A-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.482195
+e427183585.685098
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m224"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o [1mClasses/CDVWebViewDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd9947be14d76b941^2c63afe14d76b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3709"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o [1mClasses/CDVWebViewDelegate.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"5B11953A-7FA7-4788-A08E-1792C5435CD3-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.810119
+e427183584.929738
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.m212"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o [1mClasses/CDVWhitelist.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf582cfe04d76b941^a303eee04d76b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3673"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o [1mClasses/CDVWhitelist.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"9D1607EB-6A73-4868-B137-2FAC4D1591F0-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.219332
+e427183585.249962
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m226"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o [1mClasses/NSArray+Comparisons.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb05738e14d76b941^82fd3fe14d76b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3715"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o [1mClasses/NSArray+Comparisons.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"BD97500D-4D64-4615-94AC-ABDAA5C76A3C-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.611822
+e427183584.804805
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.m214"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o [1mClasses/NSData+Base64.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc7d99ce04d76b941^d108cee04d76b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3679"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o [1mClasses/NSData+Base64.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"574C1FB6-EB88-4B67-8177-8BEBF90688ED-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.611053
+e427183584.806129
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m234"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o [1mClasses/NSDictionary+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler268e9ce04d76b941^8f6ccee04d76b941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3739"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o [1mClasses/NSDictionary+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"0926C6FD-31CB-4D57-BAA4-71D487D508FF-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183584.807008
+e427183584.889782
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m246"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o [1mClasses/NSMutableArray+QueueAdditions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0abdcee04d76b941^1fdae3e04d76b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3775"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o [1mClasses/NSMutableArray+QueueAdditions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"205B6767-ACC8-463F-BF08-1A47183A18BD-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183585.215089
+e427183585.385182
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m226"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o [1mClasses/UIDevice+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler553337e14d76b941^3f8e62e14d76b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3715"[1mCompileC[0m build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o [1mClasses/UIDevice+Extensions.m[0m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG -include /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"574CC875-3654-43FC-8B6E-08D46618A147-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDV.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDV.h
+s427183583.690101
+e427183583.691961
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDV.h121"[1mCpHeader[0m Classes/CDV.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDV.h[0me9d5b0df4d76b941^ad6eb1df4d76b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDV.h00349cf2ddffdf42^662"[1mCpHeader[0m Classes/CDV.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDV.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDV.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"147D70E6-5B36-4037-9129-79025A49D957-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVAvailability.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+s427183583.690593
+e427183583.692112
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h145"[1mCpHeader[0m Classes/CDVAvailability.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h[0m53e8b0df4d76b941^ab76b1df4d76b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h00349cf2ddffdf42^698"[1mCpHeader[0m Classes/CDVAvailability.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"1960245A-3EA6-40BF-9D9F-6E573E546EEB-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+s427183583.689650
+e427183583.690708
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h151"[1mCpHeader[0m Classes/CDVCommandDelegate.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h[0m16a1b0df4d76b941^0c3ab1df4d76b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h00349cf2ddffdf42^707"[1mCpHeader[0m Classes/CDVCommandDelegate.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"CFBCE5CA-AB4B-4C9D-8D59-027994BB08CE-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+s427183583.693502
+e427183583.694641
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h159"[1mCpHeader[0m Classes/CDVCommandDelegateImpl.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h[0m679db1df4d76b941^7e36b2df4d76b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h00349cf2ddffdf42^719"[1mCpHeader[0m Classes/CDVCommandDelegateImpl.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"313B31E0-DD92-4E16-A920-F6B57B675CF5-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVCommandQueue.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+s427183583.693025
+e427183583.694694
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h145"[1mCpHeader[0m Classes/CDVCommandQueue.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h[0m0685b1df4d76b941^b919b2df4d76b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h00349cf2ddffdf42^698"[1mCpHeader[0m Classes/CDVCommandQueue.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"AEA4D2FC-58E6-4D6E-AD34-D3FE7C067858-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVConfigParser.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+s427183583.695470
+e427183583.696999
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h145"[1mCpHeader[0m Classes/CDVConfigParser.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h[0md11fb2df4d76b941^b6a1b2df4d76b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h00349cf2ddffdf42^698"[1mCpHeader[0m Classes/CDVConfigParser.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVConfigParser.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"7800FF7D-4D78-4F48-BB72-407968651CAC-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVDebug.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+s427183583.686770
+e427183583.688432
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVDebug.h131"[1mCpHeader[0m Classes/CDVDebug.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVDebug.h[0meb00b0df4d76b941^658bb0df4d76b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVDebug.h00349cf2ddffdf42^677"[1mCpHeader[0m Classes/CDVDebug.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVDebug.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"FE732B1A-4174-4CBA-B560-045EA6306104-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+s427183583.683841
+e427183583.686116
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h155"[1mCpHeader[0m Classes/CDVInvokedUrlCommand.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h[0maa2bafdf4d76b941^6de7afdf4d76b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h00349cf2ddffdf42^713"[1mCpHeader[0m Classes/CDVInvokedUrlCommand.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"C3CAFF1D-EDC3-40F5-A9A1-9340560443AE-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVJSON.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+s427183583.695793
+e427183583.697318
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVJSON.h129"[1mCpHeader[0m Classes/CDVJSON.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVJSON.h[0m0f48b2df4d76b941^bde5b2df4d76b941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVJSON.h00349cf2ddffdf42^674"[1mCpHeader[0m Classes/CDVJSON.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVJSON.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"20A86C3D-8E89-49B3-B519-C9F70A370615-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVLocalStorage.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+s427183583.690880
+e427183583.692478
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h145"[1mCpHeader[0m Classes/CDVLocalStorage.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h[0m55fbb0df4d76b941^79acb1df4d76b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h00349cf2ddffdf42^698"[1mCpHeader[0m Classes/CDVLocalStorage.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVLocalStorage.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"F4AB4BF8-DB74-482A-8D1E-93BB0EA6EAC0-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVPlugin.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+s427183583.686224
+e427183583.688377
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h133"[1mCpHeader[0m Classes/CDVPlugin.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h[0m9fccafdf4d76b941^c746b0df4d76b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h00349cf2ddffdf42^680"[1mCpHeader[0m Classes/CDVPlugin.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"49D6BC36-FED1-4285-ADC1-F225E0AA68BA-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVPluginResult.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+s427183583.684656
+e427183583.686223
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h145"[1mCpHeader[0m Classes/CDVPluginResult.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h[0m4166afdf4d76b941^b6f5afdf4d76b941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h00349cf2ddffdf42^698"[1mCpHeader[0m Classes/CDVPluginResult.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"7A156211-DA99-484F-93AF-23FC662031E3-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+s427183583.695024
+e427183583.697129
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h171"[1mCpHeader[0m Classes/CDVScreenOrientationDelegate.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h[0m691cb2df4d76b941^f5b9b2df4d76b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h00349cf2ddffdf42^737"[1mCpHeader[0m Classes/CDVScreenOrientationDelegate.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"6AEB3242-DE94-4F56-9363-65AE71876CAE-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVShared.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+s427183583.694378
+e427183583.695403
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVShared.h133"[1mCpHeader[0m Classes/CDVShared.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVShared.h[0m01dbb1df4d76b941^d658b2df4d76b941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVShared.h00349cf2ddffdf42^680"[1mCpHeader[0m Classes/CDVShared.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVShared.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"D4D76DB6-5E02-451B-ABB8-60EBD498937C-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVTimer.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+s427183583.697846
+e427183583.698811
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVTimer.h131"[1mCpHeader[0m Classes/CDVTimer.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVTimer.h[0mfdbfb2df4d76b941^1a1ab3df4d76b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVTimer.h00349cf2ddffdf42^677"[1mCpHeader[0m Classes/CDVTimer.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVTimer.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"3C08DCD4-6792-4832-9C20-4ECF27CDB457-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVURLProtocol.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+s427183583.688639
+e427183583.690174
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h143"[1mCpHeader[0m Classes/CDVURLProtocol.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h[0m6a6bb0df4d76b941^8a06b1df4d76b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h00349cf2ddffdf42^695"[1mCpHeader[0m Classes/CDVURLProtocol.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"AB6EACCB-E16E-4622-BAF5-57043FC74788-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+s427183583.697296
+e427183583.698333
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h147"[1mCpHeader[0m Classes/CDVUserAgentUtil.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h[0m569cb2df4d76b941^0b0eb3df4d76b941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h00349cf2ddffdf42^701"[1mCpHeader[0m Classes/CDVUserAgentUtil.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"3E7C2009-CF56-4091-91B0-B9246ED3B326-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVViewController.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+s427183583.688825
+e427183583.690025
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVViewController.h149"[1mCpHeader[0m Classes/CDVViewController.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVViewController.h[0mb56db0df4d76b941^2502b1df4d76b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVViewController.h00349cf2ddffdf42^704"[1mCpHeader[0m Classes/CDVViewController.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVViewController.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"5326EB9E-56D4-4002-94A5-8C7AA3E2C777-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+s427183583.696842
+e427183583.698291
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h151"[1mCpHeader[0m Classes/CDVWebViewDelegate.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h[0md786b2df4d76b941^a4fab2df4d76b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h00349cf2ddffdf42^707"[1mCpHeader[0m Classes/CDVWebViewDelegate.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWebViewDelegate.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"27DCD256-319B-4C0E-BDBA-33C2A4EB6D1C-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/CDVWhitelist.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+s427183583.688162
+e427183583.689851
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h139"[1mCpHeader[0m Classes/CDVWhitelist.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h[0mec4db0df4d76b941^17d7b0df4d76b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h00349cf2ddffdf42^689"[1mCpHeader[0m Classes/CDVWhitelist.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"9E4A4390-4371-499A-8ABC-721678583096-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+s427183583.692804
+e427183583.694392
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h153"[1mCpHeader[0m Classes/NSArray+Comparisons.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h[0m997eb1df4d76b941^2ff7b1df4d76b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h00349cf2ddffdf42^710"[1mCpHeader[0m Classes/NSArray+Comparisons.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSArray+Comparisons.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"B2710ADB-3808-438E-9A13-C08285A6BEC6-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/NSData+Base64.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+s427183583.684200
+e427183583.685970
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h141"[1mCpHeader[0m Classes/NSData+Base64.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h[0mbb42afdf4d76b941^65a7afdf4d76b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h00349cf2ddffdf42^692"[1mCpHeader[0m Classes/NSData+Base64.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSData+Base64.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"C7845DA9-40E8-4631-BE7F-60A5EEF55435-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+s427183583.683658
+e427183583.685972
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h161"[1mCpHeader[0m Classes/NSDictionary+Extensions.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h[0m3128afdf4d76b941^9dbdafdf4d76b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h00349cf2ddffdf42^722"[1mCpHeader[0m Classes/NSDictionary+Extensions.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSDictionary+Extensions.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"E6852442-F725-4E62-AF9F-EF4F93C27EAE-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+s427183583.687061
+e427183583.688287
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h173"[1mCpHeader[0m Classes/NSMutableArray+QueueAdditions.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h[0mc6f9afdf4d76b941^ef39b0df4d76b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h00349cf2ddffdf42^740"[1mCpHeader[0m Classes/NSMutableArray+QueueAdditions.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"D6238F01-F499-441E-9153-2AF0B85E78AA-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+s427183583.691673
+e427183583.692877
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h153"[1mCpHeader[0m Classes/UIDevice+Extensions.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h[0m8f37b1df4d76b941^6fd9b1df4d76b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h00349cf2ddffdf42^710"[1mCpHeader[0m Classes/UIDevice+Extensions.h [1m/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova/UIDevice+Extensions.h[0m    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include/Cordova36"8CF88998-7652-43F2-9176-D9A91229F7FE-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CLibtool /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/libCordova.a normal i386
+s427183585.686803
+e427183585.718996
+r1
+xLibtool
+x/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/libCordova.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"[1mLibtool[0m /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/libCordova.a normal i386101"[1mLibtool[0m /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/libCordova.a normal i38608e3afe14d76b941^d810b8e14d76b941^---0#0#1#--991"[1mLibtool[0m /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/libCordova.a normal i386    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -filelist /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/libCordova.a36"E82DE6CE-46F2-4A47-B5BD-C1B37C6916B2-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+
+CProcessPCH /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427183583.699905
+e427183584.610294
+r1
+xProcessPCH
+x/var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.pch
+xCordovaLib_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch297"[1mProcessPCH[0m /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler564ab3df4d76b941^603f9ce04d76b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3671"[1mProcessPCH[0m /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator/include -I/Applications/Xcode5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/reyosoft/Desktop/BGR_WEB/platforms/ios/build/emulator -DDEBUG --serialize-diagnostics /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.d -c /Users/reyosoft/Desktop/BGR_WEB/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/b8/3tl17vv917zc75xkd5nhyh8r0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-dqgslllkzrwxcndzxqaclfqnjmej/CordovaLib_Prefix.pch.pch36"CC26D210-284F-4017-8F7E-0CAF461BC709-
+b71D7CBEC-A1C8-4D08-84FB-AF109C8C26D9
+

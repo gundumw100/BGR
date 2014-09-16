@@ -1,0 +1,506 @@
+.ui-li{
+	margin: 0;
+	overflow: visible;
+	text-align: left;
+	border-width: 0;
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+
+.font_middle{
+	font-size:14px;
+	padding:4px 0px;
+}
+.font_small{
+	font-size:12px;
+	padding:4px 0px;
+}
+
+div[data-role=header]{
+	border-top:2px solid red; 
+}
+
+#homepage div[data-role=header]>div{
+	margin-bottom:4px;
+}
+
+#homepage #openPanel{
+	background:rgba(0,0,0,0);
+	border:0px;
+}
+#homepage #openPanel:hover,
+#homepage #openPanel:active{
+	background:rgba(0,0,0,0);
+	border:0px;
+}
+#homepage #mypanel ul li{
+	height:64px;
+	background:rgba(0,0,0,0);
+	/*
+	-moz-border-image:url(../img/border.jpg) 27 round;
+    -webkit-border-image:url(../img/border.jpg) 27 round;
+	border-image:url(../img/border.jpg) 27 repeat;
+	*/
+	border-color:#666;
+	border-bottom-width: 1px;
+}
+
+#homepage #mypanel ul li:active{
+	background:#F00;
+}
+
+#homepage #mypanel ul li a span.menu_span{
+	vertical-align:middle;
+	height:40px;
+	line-height:40px;
+	margin-left:-30px;
+	padding-left:10px;
+	color:white;
+}
+#homepage #mypanel ul li a img{
+	vertical-align:middle;
+	width:32px;
+	height:32px;
+	margin-top:16px;
+	margin-left:10px;
+}
+#homepage #mypanel ul li a #orderNum,#favoriteNum{
+	margin-right:-20px;
+	margin-top:-20px;
+	background:#222;
+	color:white;
+	font-size:14px;
+	font-weight:normal;
+	width:20px;
+	text-align:center;
+	border: 0px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+}
+
+.li_item{
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:solid;
+	border-left-style:none;
+	border-color:gray;
+	border-width:1px;
+}
+
+.li_item:active{
+	background:#F00;
+}
+
+.table{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+.tr{
+	background:white;
+	color:black;
+	font-weight:normal;
+}
+
+.td{ 
+	
+}
+
+.right{ width:100%; text-align:right; float:left;}
+
+#store_detail_page .store_menu tr {
+	cursor:pointer;
+}
+#store_detail_page .store_menu td {
+	border-style:solid;	
+	border-width:2px;	
+	border-color:red;	
+	width:30%;	
+	text-align:center;	
+	font-size:14px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#store_detail_page .store_menu td:active {
+	border-color:black;
+}
+#store_detail_page .store_menu td img{
+	width:45px;
+}
+#store_detail_page .store_menu table {
+	width:100%;
+	/*
+	color:white;
+	*/
+}
+
+#store_detail_page #share_facebook {
+	text-align:center;
+	text-decoration:underline;
+	/*
+	color:white;
+	*/
+}
+
+/****************Log In Page******************/
+#sign_in_page #or{
+	text-align:center;
+	/*
+	color: white;
+	*/
+	font-size: 16px;
+	font-weight: normal;
+}
+#sign_in_page #forgetPassword{
+	text-align:right;
+	/*
+	color: white;
+	*/
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration:underline;
+}
+#sign_in_page #join{
+	text-align:center;
+	/*
+	color: white;
+	*/
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration:underline;
+}
+
+/**************foodmenu_page Page *******************/
+#boxscroll{
+	width:100%;
+	overflow:auto;
+	background:#333;
+}
+#categorys{
+	height:25px;
+	vertical-align:middle;
+	padding-top:10px;
+	padding-bottom:10px;
+	white-space:nowrap;
+}
+
+.category{
+	padding:8px;
+	font-weight:normal;
+}
+.category_normal{
+	color:white;
+}
+.category_checked{
+	color:red;
+	text-decoration:underline;
+}
+
+/**************dish_modifier_page Page *******************/
+
+#dish_modifier_page #dish_num {
+	margin-top: 20px;
+	margin-left: 50px;
+	width: 100%;
+	height: 28px;
+	color: #fff;
+	padding: 10px;
+}
+#dish_modifier_page #dish_num * {
+	margin: 0 4px;
+	padding: 0;
+	display: inline;
+	float: left;
+}
+#dish_modifier_page #dish_num span {
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+}
+
+#dish_modifier_page #dish_num img, #dish_modifier_page #dish_num input{
+	width: 28px;
+	height: 28px;
+	border: 0 none;
+}
+
+#dish_modifier_page #dish_num input {
+	text-align: center;
+	color:black;
+	border:0;
+}
+#dish_modifier_page #dish_modifier{
+	margin-left:0px;
+	margin-right:0px;
+	font-weight:normal;
+}
+#dish_modifier_page .modifiers{
+	background:white;
+	color:black;
+	padding-left:10px;
+	padding-right:10px;
+	font-weight:normal;
+	border-color:#ccc;
+	font-size:14px;
+}
+
+/**************order_page Page *******************/
+#order_page #myDishes li{
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+	padding:0px;
+	margin:0px;
+	width:100%;
+}
+
+.frame {
+	width:100%;
+	border-style:solid;	
+	border-width:2px;	
+	border-color:red;	
+	text-align:center;	
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+#order_page .coupons :active {
+	border-style:solid;	
+	border-width:2px;	
+	border-color:black;	
+	width:100%;	
+	text-align:center;	
+	margin:10px;
+	padding:10px;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+}
+
+/**************levelup_card_manage_page Page *******************/
+
+#levelup_card_manage_page #remove-card {
+	font-weight: bold;
+	padding: 8px;
+	background: red;
+	color:white;
+	margin-top: 12px !important;
+	font-size: 14px;
+	display: none;
+}
+/**************my_order_detail_page*******************/
+#my_order_detail_page #my_dishes_list li{
+	border-top-style:none;
+	border-right-style:none;
+	border-bottom-style:none;
+	border-left-style:none;
+}
+
+#rewards_page .circle {
+	margin-top: 0px;
+	text-align: center;
+	border:0px;
+	box-shadow:none;
+}
+
+#rewards_page .center {
+	position: absolute;
+	top: 230px;
+	width: 95%;
+	text-align: center;
+	text-shadow: none;
+	font-size: 40px;
+}
+
+#rewards_page .spend {
+	position: absolute;
+	top: 320px;
+	width: 95%;
+	text-align: center;
+	text-shadow: none;
+	font-size: 16px;
+}
+#rewards_page .get {
+	position: absolute;
+	top: 340px;
+	width: 95%;
+	text-align: center;
+	text-shadow: none;
+	font-size: 16px;
+}
+
+#rewards_page .welcome {
+	margin-top: 30px;
+	text-align: center;
+	color: gray;
+	text-shadow:none;
+	font-size: 40px;
+}
+
+/**************comm*******************/
+.btn_red{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	background:red;
+	text-align:center;
+	font-size: 18px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-weight:normal;
+	color:white;
+	margin-top:16px;
+}
+
+.btn_red:active {
+   background:#E83428;
+}
+
+.ui-block-a{
+	height:25px;
+	text-align: left;
+}
+.ui-block-b{
+	height:25px;
+	text-align: right;
+}
+
+#wrapper{
+	/*width:100%;*/
+	position:absolute; 
+	z-index:1;
+	top:0px; 
+	bottom:0px; 
+	left:0px;
+	right:0px;
+	overflow:auto;
+}
+
+#scroller{
+	/*width:100%;*/
+	position:absolute;
+	left:10px;
+	right:10px;
+	z-index:1;
+	padding:0;
+	/*
+	color:white;
+	*/
+}
+
+/***************************my_payment_card_page start*****************************/
+#my_payment_card_page #qrcode {
+	margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#my_payment_card_page #qrcode > div{
+	width: 70% !important;
+    margin: 0 auto !important;
+    text-align: left;
+}
+
+#my_payment_card_page table {
+	padding: 0;
+	width: 100%;
+	border-collapse:collapse;
+	border:solid 0px black;
+}
+#my_payment_card_page table tr {
+	width: 100%;
+	border:solid 0px black;
+}
+#my_payment_card_page table tr td {
+	font-size:40px;
+	width: 20%;
+	text-align:center;
+	border:solid 0px black;
+}
+
+/***************************my_payment_card_page end*****************************/
+
+input[type=checkbox],
+input[type=radio]{
+	width:23px;
+	height:23px;
+	outline: none;
+	border:0;
+	-webkit-appearance: none;
+	appearance: none;
+	background:url(../img/agree_normal.png) no-repeat;
+}
+
+/*input[type=checkbox]:active,
+input[type=radio]:active,*/
+input[type=checkbox]:checked,
+input[type=radio]:checked {
+	width:23px;
+	height:23px;
+	outline: none;
+	border:0;
+	-webkit-appearance: none;
+	appearance: none;
+	background:url(../img/agree_checked.png) no-repeat;
+}
+
+input[type=checkbox]:focus,
+input[type=radio]:focus {
+	width:23px;
+	height:23px;
+	outline: none;
+	border:0;
+}
+
+.ui-icon-arrow{
+	background-image: url("../img/ic_arrow.png");
+    background-position: 0px 0px;
+    -moz-background-size:8px 20px;
+    -o-background-size:8px 20px;
+	-webkit-background-size:8px 20px;
+	background-size:8px 20px;
+	border:0;
+    border-radius: 0; /*图标形态，0=方形，默认圆形*/
+    background-color:transparent;
+}
+
+.ui-li-count{
+	background:rgba(0,0,0,0);color:white;border:0px;
+}
+
+div[data-role="content"] form>div{
+	margin:0px;
+	padding:0px;
+	border:#ccc solid 1px;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+#setting_page table tr td>div{
+	 border:0px;
+}
+
+
+#change_birthday_page div[data-role="content"] fieldset>div{
+	margin:0px;
+	padding:0px;
+	border:#ccc solid 0px;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+
